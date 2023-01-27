@@ -1,0 +1,152 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    background-color: #EDEDED;
+}
+
+/*Typography*/
+.fw-bold {
+    font-weight: 700;
+}
+
+.mg-top-0 {
+    margin-top: 0;
+}
+
+.mg-btm-0 {
+    margin-bottom: 0;
+}
+
+.fs-12 {
+    font-size: 11px;
+}
+
+img {
+    width: 100%;
+}
+
+/*Layout*/
+.container {
+    padding: 8px 15px;
+    background-color: #fff;
+    width: 375px;
+    margin: 0 auto;   
+}
+
+header .container {
+    border-bottom: 1px solid #C6C6C6;
+    padding: 0 10px;
+    margin-top: 10px;
+}
+
+.comments {
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+}
+
+.geo_section {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:0px;
+}
+
+
+/*Styling*/
+
+ul {
+    list-style-type: none;
+    height: 67px;
+    padding-left: 0;
+}
+
+article {    
+    border-bottom: 20px solid #EDEDED;
+}
+
+.name {
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.post_img_sec {
+    padding: 0;
+}
+
+/*Images*/
+.logo_img {
+    width: 127px;
+    height: 33px;
+}
+
+.avatar {
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+}
+
+.post_img {
+    min-width: 100%;
+}
+
+/*Icons*/
+.icons {
+    display: flex;
+    margin-top: 0;
+    padding-top: 13px;
+    font-size: 23px;
+}
+
+.icons i {
+    margin-right: 13px;
+    cursor: pointer;
+}
+
+.fa-heart,
+.fa-paper-plane,
+.fa-comment {
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+    color: transparent;
+}
+
+.fa-heart:hover, 
+.fa-heart:focus, 
+.fa-heart:active {
+    -webkit-text-stroke-width: 0;
+    -webkit-text-stroke-color: transparent;
+    color: rgb(215, 24, 24);
+    overflow: hidden;
+}
+
+.fa-paper-plane:hover, 
+.fa-paper-plane:focus, 
+.fa-paper-plane:active {
+    -webkit-text-stroke-width: 0;
+    -webkit-text-stroke-color: transparent;
+    color: rgb(94, 184, 214);
+    overflow: hidden;
+}
+
+.fa-comment:hover, 
+.fa-comment:focus, 
+.fa-comment:active {
+    -webkit-text-stroke-width: 0;
+    -webkit-text-stroke-color: transparent;
+    color: rgb(160, 159, 159);
+    overflow: hidden;
+}
